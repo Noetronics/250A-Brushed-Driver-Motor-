@@ -13,10 +13,19 @@
 - Pin 1 : 5V 2A BEC output
 - Pin 2 : H_In-
 - Pin 3 : H_In+
-- Pin 4 : 
+- Pin 4 : L_In-
+- Pin 5 : L_In+
+- Pin 6 : Cut_M- (
+set to logic low to stop CCW rotation, CW rotation can still be done)
+- Pin 7 : Cut_M+ (
+set to logic low to stop CW rotation, CCW rotation can still be done)
+- Pin 8 : Current sensing (connect to analog input to read V-shunt value)
+- Pin 9 : 12V
+- Pin 10 : GND
 
 ## Circuit Example
-![circuit_image (1)](https://github.com/user-attachments/assets/8dcc4964-c2c8-4d55-ba17-7900ae90c32e)
+![circuit_image](https://github.com/user-attachments/assets/36d45656-ea33-4683-9479-8983e37b6df3)
+
 
 
 
