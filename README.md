@@ -27,7 +27,7 @@ set to logic low to stop CW rotation, CCW rotation can still be done)
 ![circuit_image](https://github.com/user-attachments/assets/36d45656-ea33-4683-9479-8983e37b6df3)
 
 ## Code Example
-You need this library https://github.com/khoih-prog/AVR_PWM
+You need this library https://github.com/khoih-prog/AVR_PWM to run the code below
 ```C++
 #define _PWM_LOGLEVEL_ 4
 #include "AVR_PWM.h"
